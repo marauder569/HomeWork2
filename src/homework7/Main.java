@@ -64,7 +64,7 @@ public class Main {
         System.out.println();
         double currentDeposit2 = 15000;
         int months2 = 0;
-        for (months2 = 1; months2 <= 108; months2++) {
+        for (months2 = 0; months2 <= 108; months2++) {
             currentDeposit2 *= 1.07;
             if (months2 % 6 == 0) {
                 System.out.printf("Месяц %d, сумма накоплений равна %.2f рублей%n", months2, currentDeposit2);
@@ -91,6 +91,7 @@ public class Main {
                 System.out.println(cometFlyby);
             }
             cometFlyby += cometFlybyRate;
+
         }
     }
 }
