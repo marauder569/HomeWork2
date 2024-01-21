@@ -33,14 +33,14 @@ public class Main {
             System.out.println("год не является високосным");
         }
         //Задача 4
-        int deliveryDistance = 35;
+        int deliveryDistance = 65;
         int deliveryTime1 = 1;
         int deliveryTime2 = deliveryTime1 + 1;
         int deliveryTime3 = deliveryTime2 + 1;
         if (deliveryDistance <= 20) {
             System.out.println("доставка займет " + deliveryTime1 + " день");
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("доставка займет " + deliveryTime2 + " дня");
+            System.out.println("доставка займет " + ++deliveryTime2 + " дня");
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
             System.out.println("доставка займет " + deliveryTime3 + " дня");
         } else {
