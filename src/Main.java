@@ -1,6 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
+        homework_oop1
         GryffindorStudent gryffindor1 = new GryffindorStudent("Гарри Поттер", 90, 20, 80, 75, 85);
         GryffindorStudent gryffindor2 = new GryffindorStudent("Гермиона Грейнджер",95, 25, 85, 80, 90);
         GryffindorStudent gryffindor3 = new GryffindorStudent("Рон Уизли", 87, 66, 80, 77, 90);
@@ -22,6 +23,7 @@ public class Main {
         hogwarts.compare(slytherin2,slytherin3);
         hogwarts.compare(slytherin2,slytherin2);
         hogwarts.compare(gryffindor1, slytherin3);
+
 
     }
 }
