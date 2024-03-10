@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 public class Hogwarts {
     public void compare(HogwartsStudents student1, HogwartsStudents student2) {
 

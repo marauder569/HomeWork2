@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 class GryffindorStudent extends HogwartsStudents {
     private final int nobility;
     private final int honor;

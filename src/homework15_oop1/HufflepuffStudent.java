@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 class HufflepuffStudent extends HogwartsStudents {
     private final int loyalty;
     private final int dedication;

@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 class SlytherinStudent extends HogwartsStudents {
     private final int ambition;
     private final int cunning;

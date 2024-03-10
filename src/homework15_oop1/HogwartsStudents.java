@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 public abstract class HogwartsStudents {
     private final String name;
     private final int magicPower;

@@ -1,3 +1,5 @@
+package homework15_oop1;
+
 class RavenclawStudent extends HogwartsStudents {
     private final int intelligence;
     private final int creativity;
