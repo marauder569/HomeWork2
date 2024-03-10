@@ -23,7 +23,5 @@ public class Main {
         hogwarts.compare(slytherin2,slytherin3);
         hogwarts.compare(slytherin2,slytherin2);
         hogwarts.compare(gryffindor1, slytherin3);
-
-
     }
 }
